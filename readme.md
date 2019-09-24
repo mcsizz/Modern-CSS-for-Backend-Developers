@@ -17,6 +17,9 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 2
 - [Flex Your Grids](https://laracasts.com/series/modern-css-for-backend-developers/episodes/2?autoplay=true)
 
+## Episode 3
+- [Workshop - Card Design](https://laracasts.com/series/modern-css-for-backend-developers/episodes/3?autoplay=true)
+
 ## License
 
 Have fun license
