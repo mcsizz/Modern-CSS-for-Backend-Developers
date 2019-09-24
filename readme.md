@@ -20,6 +20,9 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 3
 - [Workshop - Card Design](https://laracasts.com/series/modern-css-for-backend-developers/episodes/3?autoplay=true)
 
+## Episode 4
+- [Refactoring to Utility Classes and Tailwind](https://laracasts.com/series/modern-css-for-backend-developers/episodes/4?autoplay=true)
+
 ## License
 
 Have fun license
