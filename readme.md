@@ -5,6 +5,11 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Steps to recreate
 - Run composer to create initial Larvel project
     - composer create-project --prefer-dist laravel/laravel Modern-CSS-for-Backend-Developers
+- Create Github repo
+- Add repo to project
+    - git remote add github https://github.com/mcsizz/Modern-CSS-for-Backend-Developers.git
+- Perform initial push to new repo on Github
+    - git push -u github master
 
 ## License
 
