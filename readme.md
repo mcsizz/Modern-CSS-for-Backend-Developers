@@ -14,6 +14,9 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 1
 - [Piece By Piece - Structure, Resets, and Flexbox](https://laracasts.com/series/modern-css-for-backend-developers/episodes/1)
 
+## Episode 2
+- [Flex Your Grids](https://laracasts.com/series/modern-css-for-backend-developers/episodes/2?autoplay=true)
+
 ## License
 
 Have fun license
