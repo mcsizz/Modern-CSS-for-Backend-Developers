@@ -23,6 +23,9 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 4
 - [Refactoring to Utility Classes and Tailwind](https://laracasts.com/series/modern-css-for-backend-developers/episodes/4?autoplay=true)
 
+## Episode 5
+- [Easy Flexbox Wins](https://laracasts.com/series/modern-css-for-backend-developers/episodes/5?autoplay=true)
+
 ## License
 
 Have fun license
