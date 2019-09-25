@@ -35,6 +35,12 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 11
 - [Mobile-First Layouts](https://laracasts.com/series/modern-css-for-backend-developers/episodes/11?autoplay=true)
 
+## Episode 12
+- Another example from his website to learn from but not follow along with.
+
+## Episode 13
+- [Better Sizing and Spacing With rems](https://laracasts.com/series/modern-css-for-backend-developers/episodes/13?autoplay=true)
+
 ## License
 
 Have fun license

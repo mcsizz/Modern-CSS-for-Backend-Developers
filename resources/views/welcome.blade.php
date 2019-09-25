@@ -11,64 +11,49 @@
 
         <!-- Styles -->
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/app.css">
+        <!-- <link rel="stylesheet" href="/css/app.css"> -->
+        <style type="text/css">
+            html {
+                font-size: 12px;
+            }
+
+            @screen lg {
+                html {
+                    font-size: 16px;
+                }   
+            }
+
+            .section {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .content > * { margin-bottom: 1em; }
+        </style>
     </head> 
     <body>
-        <div class="container mx-auto">
-            <div class="min-h-screen md:flex md:flex-col bg-gray-400">
-                <header class="bg-red-200 p-3">
-                    <h1>My Site</h1>
+        <div class="section">
+            <div class="container mx-auto">
+                <header>
+                    <h1 class="text-3xl mb-8">Yarde Metals</h1>
                 </header>
-                <div class="md:flex md:flex-1">
-                    <aside class="bg-green-200 p-3">
-                        Sidebar
-                    </aside>
-                    <main class="bg-blue-200 flex-1 p-3">
-                        <div class="flex flex-wrap">
-                            <div class="w-1/2 md:w-1/4 p-3">    
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 md:w-1/4 p-3">
-                                <div class="bg-gray-300 p-3 md:mb-2">
-                                    <p>Product Feature</p>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
-                </div>
-                <footer class="bg-black text-white p-3">
+                <main class="content">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
+                    </p>
+                    <h2>Our Mission</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
+                    </p>
+                    <h2>Our Values</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
+                    </p>
+                </main>
+                <footer>
                     Copyright 2019
                 </footer>
             </div>
