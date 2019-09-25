@@ -13,34 +13,65 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css">
     </head> 
-    <body class="container mx-auto">
-
-    <div class="md:flex md:flex-wrap">
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">1</div>
+    <body>
+        <div class="container mx-auto">
+            <div class="min-h-screen md:flex md:flex-col bg-gray-400">
+                <header class="bg-red-200 p-3">
+                    <h1>My Site</h1>
+                </header>
+                <div class="md:flex md:flex-1">
+                    <aside class="bg-green-200 p-3">
+                        Sidebar
+                    </aside>
+                    <main class="bg-blue-200 flex-1 p-3">
+                        <div class="flex flex-wrap">
+                            <div class="w-1/2 md:w-1/4 p-3">    
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                            <div class="w-1/2 md:w-1/4 p-3">
+                                <div class="bg-gray-300 p-3 md:mb-2">
+                                    <p>Product Feature</p>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <footer class="bg-black text-white p-3">
+                    Copyright 2019
+                </footer>
+            </div>
         </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">2</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">3</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">4</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">1</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">2</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">3</div>
-        </div>
-        <div class="md:w-1/2 lg:w-1/4 p-4">
-            <div class="box bg-gray-200 p-4">4</div>
-        </div>
-    </div>
-
     </body>
 </html>

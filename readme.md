@@ -32,6 +32,9 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 10
 - [Mobile-First Design](https://laracasts.com/series/modern-css-for-backend-developers/episodes/10?autoplay=true)
 
+## Episode 11
+- [Mobile-First Layouts](https://laracasts.com/series/modern-css-for-backend-developers/episodes/11?autoplay=true)
+
 ## License
 
 Have fun license
