@@ -26,6 +26,12 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 5
 - [Easy Flexbox Wins](https://laracasts.com/series/modern-css-for-backend-developers/episodes/5?autoplay=true)
 
+## Episodes 6-9
+- Kind of hard to follow since assets were not provided
+
+## Episode 10
+- [Mobile-First Design](https://laracasts.com/series/modern-css-for-backend-developers/episodes/10?autoplay=true)
+
 ## License
 
 Have fun license
