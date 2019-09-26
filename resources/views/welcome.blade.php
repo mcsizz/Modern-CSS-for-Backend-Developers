@@ -4,59 +4,79 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>CSS for Backend Devs</title>
+        <title>Modal Example</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
         <!-- <link rel="stylesheet" href="/css/app.css"> -->
-        <style type="text/css">
-            html {
-                font-size: 12px;
+        <style>
+            .overlay {
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(0, 0, 0, .7);
             }
 
-            @screen lg {
-                html {
-                    font-size: 16px;
-                }   
+            .overlay:target {
+                visibility: visible;
             }
 
-            .section {
-                padding-left: 20px;
-                padding-right: 20px;
+            .modal {
+                position: relative;
+                width: 600px;
+                max-width: 80%;
+                background: white;
+                border-radius: 8px;
+                padding: 1em 2em;
             }
-            .content > * { margin-bottom: 1em; }
+
+            .modal .close {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                color: gray;
+                text-decoration: none;
+            }
+
+            .overlay .cancel {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
         </style>
     </head> 
     <body>
-        <div class="section">
-            <div class="container mx-auto">
-                <header>
-                    <h1 class="text-3xl mb-8">Yarde Metals</h1>
-                </header>
-                <main class="content">
-                    <h2>About Us</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
-                    </p>
-                    <h2>Our Mission</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
-                    </p>
-                    <h2>Our Values</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laboriosam quasi maiores praesentium consequuntur animi corrupti asperiores quam. Voluptas architecto eos molestiae laudantium velit veniam, doloribus vitae expedita nobis repellat!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam doloribus, error sint tenetur nam ex! Veritatis aliquam accusamus, sint praesentium culpa perferendis, eaque cupiditate ipsum hic eveniet aut obcaecati!
-                    </p>
-                </main>
-                <footer>
-                    Copyright 2019
-                </footer>
-            </div>
-        </div>
+        <a href="#join-modal">Join</a>
+        <a href="#cancel-modal">Cancel</a>
+
+        @component('modal', ['name' => 'join-modal'])
+            <h1>Pick a Plan</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati laboriosam repudiandae necessitatibus dicta officia ea consequatur, quis odio, est autem labore veniam minus error maiores optio, unde ipsam earum.
+            </p>
+        @endcomponent
+
+        @component('modal', ['name' => 'cancel-modal'])
+            <h1>Leaving So Soon?</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis obcaecati laboriosam repudiandae necessitatibus dicta officia ea consequatur, quis odio, est autem labore veniam minus error maiores optio, unde ipsam earum.
+            </p>
+
+            <p>
+                <a href="#join-modal">Sign up</a>
+            </p>
+        @endcomponent
+
     </body>
 </html>

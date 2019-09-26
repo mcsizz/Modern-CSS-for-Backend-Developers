@@ -41,6 +41,12 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 13
 - [Better Sizing and Spacing With rems](https://laracasts.com/series/modern-css-for-backend-developers/episodes/13?autoplay=true)
 
+## Episodes 14-16
+- More examples from his website to learn from but not follow along with.
+
+## Episode 17
+- [Modals with Zero JavaScript](https://laracasts.com/series/modern-css-for-backend-developers/episodes/17?autoplay=true)
+
 ## License
 
 Have fun license
