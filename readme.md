@@ -47,6 +47,19 @@ Code based on [Modern CSS for Backend Developers](https://laracasts.com/series/m
 ## Episode 17
 - [Modals with Zero JavaScript](https://laracasts.com/series/modern-css-for-backend-developers/episodes/17?autoplay=true)
 
+## Usage Instructions
+- Checkout from GitHub and open in VSCode
+    - git clone https://github.com/mcsizz/Modern-CSS-for-Backend-Developers.git
+    - cd Modern-CSS-for-Backend-Developers/
+    - code .
+- Setup project (assumes composer installed)
+    - composer install
+    - cp .env.example .env
+    - php artisan key:generate
+    - php artisan serve
+- Setup branch based upon one of the prior commits
+    - git checkout -b [branch name] [commit hash]
+
 ## License
 
 Have fun license
